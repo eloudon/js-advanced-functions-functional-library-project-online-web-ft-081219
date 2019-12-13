@@ -65,7 +65,7 @@ const fi = (function() {
           newArr.push(element);
         }
       }
-      return newArr 
+      return newArr
     },
 
     size: function (collection) {
@@ -148,7 +148,7 @@ const fi = (function() {
 
       return uniqueCollection;
     },
-    
+
     keys: function(object) {
       let newArr = []
       for (const k in object) {
